@@ -194,7 +194,7 @@ function piFun (){
     if (rep == '1' || rep == '2' ||rep == '3' || rep == '4' || rep == '5' 
       ||rep == '6' ||rep == '7' || rep == '8' ||rep == '9' ||rep == '0' || rep == ')' ){
     if(isResult == 0 )
-    textArea.value =makeExp('*sin(');
+    textArea.value =makeExp('*Sin(');
     else {
         ceFun();
         textArea.value =makeExp('*Sin(');
